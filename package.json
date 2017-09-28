@@ -10,7 +10,7 @@
         "start-7": "node -r @std/esm index-babel.js",
         "start-8": "node -r @std/esm app-stdesm.js",
         "start-9": "node -r @std/esm app-babel-stdesm.js",
-        "start-10": "babel-node -r node_modules/@std/esm app-babel-stdesm.js"
+        "start-10": "babel-node -r @std/esm app-babel-stdesm.js"
     },
     "dependencies": {
         "@std/esm": "^0.11.0",
