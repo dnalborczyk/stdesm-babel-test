@@ -1,0 +1,23 @@
+{
+    "name": "stdesm-babel-test",
+    "scripts": {
+        "start-1": "node index-babel.js",
+        "start-2": "node index-stdesm.js",
+        "start-3": "node index-babel-stdesm.js",
+        "start-4": "babel-node index-babel.js",
+        "start-5": "babel-node index-stdesm.js",
+        "start-6": "babel-node index-babel-stdesm.js",
+        "start-7": "node -r @std/esm index-babel.js",
+        "start-8": "node -r @std/esm app-stdesm",
+        "start-9": "node -r @std/esm app-babel-stdesm"
+    },
+    "dependencies": {
+        "@std/esm": "^0.11.0",
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-register": "^6.26.0"
+    },
+    "@std/esm": {
+        "esm": "js"
+    }
+}
